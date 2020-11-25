@@ -9,17 +9,18 @@
 <body>
   <div class="wrapper">
     <header>
-      <p class=" logo logo_white logo_bold">SUPERDRONE.</p>
-      <ul class="menu">
-        <li class="menu__item menu__item_white menu__item_padding">MEET THE PRODUCT</li>
-        <li class="menu__item menu__item_white">MEET THE COMPANY</li>
-        <li class="menu__item menu__item_white">SUPPORT</li>
-        <li class="menu__item menu__item_white">BLOG</li>
-      </ul>
-      
-      <img src="./images/Forma 1.png" alt="basket" class="basket basket_margin">
-      <button class="btn">LOGIN</button>
-
+      <div class="header-wrapper">
+        <p class=" logo logo_white logo_bold">SUPERDRONE.</p>
+        <ul class="menu">
+          <li class="menu__item menu__item_white menu__item_padding">MEET THE PRODUCT</li>
+          <li class="menu__item menu__item_white">MEET THE COMPANY</li>
+          <li class="menu__item menu__item_white">SUPPORT</li>
+          <li class="menu__item menu__item_white">BLOG</li>
+        </ul>
+        
+        <img src="./images/Forma 1.png" alt="basket" class="basket basket_margin">
+        <button class="btn">LOGIN</button>
+      </div>
             <!-- Top Navigation Menu -->
             <div class="topnav">
               <a></a>
@@ -50,6 +51,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quaerat qui dol
       <button class="btn">READ MORE</button>
     </div>
   </section>
+  
   <section class="video">
     <button class="start-wrapper">
       <img class="start" src="./images/Forma.png" alt="start">
@@ -64,18 +66,24 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quaerat qui dol
     <div class="blocks-wrapper">
       <div class="block">
         <div class="block__picture"></div>
-        <h2 class="block__title title_white block__title_margin">4K RESOLUTION</h2>
-        <p class="block__text text_grey">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab vitae tempora repellat error. Officia, suscipit eos animi quia nostrum quis odit, nam nobis explicabo adipisci porro. Nemo officia sequi harum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nostrum deserunt itaque iure ipsum quisquam error minima quidem maxime vitae.</p>
+        <div class="block-text-wrapper">
+          <h2 class="block__title title_white block__title_margin">4K RESOLUTION</h2>
+          <p class="block__text text_grey">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab vitae tempora repellat error. Officia, suscipit eos animi quia nostrum quis odit, nam nobis explicabo adipisci porro. Nemo officia sequi harum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nostrum deserunt itaque iure ipsum quisquam error minima quidem maxime vitae.</p>
+        </div>
       </div>
       <div class="block">
         <div class="block__picture"></div>
-        <h2 class="block__title title_white block__title_margin">TIMELAPSE</h2>
-        <p class="block__text text_grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eius non quae ex, maxime asperiores rem qui alias illo, molestias consequatur suscipit assumenda consequuntur praesentium est quas id fugit atque? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsum? Accusamus illum eius in tenetur laboriosam voluptates perferendis dolore doloremque.</p>
+        <div class="block-text-wrapper">
+          <h2 class="block__title title_white block__title_margin">TIMELAPSE</h2>
+          <p class="block__text text_grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eius non quae ex, maxime asperiores rem qui alias illo, molestias consequatur suscipit assumenda consequuntur praesentium est quas id fugit atque? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, ipsum? Accusamus illum eius in tenetur laboriosam voluptates perferendis dolore doloremque.</p>
+        </div>
       </div>
       <div class="block">
         <div class="block__picture"></div>
-        <h2 class="block__title title_white block__title_margin">SUPER SPEED</h2>
-        <p class="block__text text_grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni perspiciatis earum eius asperiores rerum ipsum voluptates eos ex, at consectetur odio. Porro excepturi tenetur odit nobis blanditiis modi itaque maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sit pariatur delectus ipsum corrupti, vitae quas! Iusto, quibusdam! Quas, nihil?</p>
+        <div class="block-text-wrapper">
+          <h2 class="block__title title_white block__title_margin">SUPER SPEED</h2>
+          <p class="block__text text_grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni perspiciatis earum eius asperiores rerum ipsum voluptates eos ex, at consectetur odio. Porro excepturi tenetur odit nobis blanditiis modi itaque maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sit pariatur delectus ipsum corrupti, vitae quas! Iusto, quibusdam! Quas, nihil?</p>
+        </div>
       </div>
     </div>
   </section>
@@ -147,25 +155,31 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quaerat qui dol
     <div class="drone-wrapper">
 
       <div class="drone-block">
-        <img class="drone-block__image drone-block__image_margin" src="./images/sh1.png" alt="drone 1">
-        <p class="drone-block__name">JXD S12W 90</p>
-        <p class="drone-block__price drone-block__price_margin">299$</p>
-        <button class="btn btn_black">ADD TO CARD</button>
+        <div class="drone-block__image drone-block__image_margin drone-block__image_sh1"></div>
+        <div class="drone-text-wrapper">
+          <p class="drone-block__name">JXD S12W 90</p>
+          <p class="drone-block__price drone-block__price_margin">299$</p>
+          <button class="btn btn_black drone-block__btn_margin">ADD TO CARD</button>
+        </div>
       </div>
 
-      <div class="drone-block">
+      <div class="drone-block drone-block_margin">
         <div class="drone-block__new drone-block__new_position">NEW</div>
-        <img class="drone-block__image drone-block__image_margin" src="./images/sh2.png" alt="drone 2">
-        <p class="drone-block__name">DJI Phantom 4 Pro*</p>
-        <p class="drone-block__price drone-block__price_margin">399$</p>
-        <button class="btn btn_black drone-block__btn_margin">ADD TO CARD</button>
+        <div class="drone-block__image drone-block__image_margin drone-block__image_sh2"></div>
+        <div class="drone-text-wrapper">
+          <p class="drone-block__name">DJI Phantom 4 Pro*</p>
+          <p class="drone-block__price drone-block__price_margin">399$</p>
+          <button class="btn btn_black drone-block__btn_margin">ADD TO CARD</button>
+        </div>
       </div>
 
       <div class="drone-block">
-        <img class="drone-block__image drone-block__image_margin" src="./images/sh3.png" alt="drone 3">
-        <p class="drone-block__name">Skytech M62 2.4 Ghz</p>
-        <p class="drone-block__price drone-block__price_margin">599$</p>
-        <button class="btn btn_black">ADD TO CARD</button>
+        <div class="drone-block__image drone-block__image_margin drone-block__image_sh3"></div>
+        <div class="drone-text-wrapper">
+          <p class="drone-block__name">Skytech M62 2.4 Ghz</p>
+          <p class="drone-block__price drone-block__price_margin">599$</p>
+          <button class="btn btn_black drone-block__btn_margin">ADD TO CARD</button>
+        </div>
       </div>
 
     </div>
