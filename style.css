@@ -892,7 +892,7 @@ header {
     justify-content: center;
     align-items: flex-start;
     background-position: right bottom;
-    background-size: 70% auto;
+    background-size: 90% auto;
   }
 
   .description-wrapper {
@@ -986,8 +986,8 @@ header {
   }
 
   .btn {
-    padding: 5px 5px;
-    font-size: 0.8rem;
+    padding: 5px 10px;
+    font-size: 1rem;
   }
 
   .drone-block__new {
